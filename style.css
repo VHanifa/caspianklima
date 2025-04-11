@@ -467,6 +467,36 @@ body {
     font-weight: 400;
 }
 
+/* Bloglar */
+
+.custom-card {
+    display: flex;
+    align-items: stretch;
+    min-height: 385px;
+    background: rgb(248, 249, 250);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 0%;
+    padding: 20px;
+}
+.org-logo{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    gap: 8px;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 .references_title {
     font-size: 30px;
     font-weight: 700;
@@ -524,6 +554,8 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+/* Footer */
 
 footer .footer-top {
     background: black;
