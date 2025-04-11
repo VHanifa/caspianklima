@@ -42,3 +42,21 @@ const swiperBlog = new Swiper(".blogSwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const swiperMehsullar = new Swiper(".mehsullarSwiper", {
+  loop: true,
+  slidesPerView: 3.5,
+  dots: false,
+  stagePadding: 50,
+  centerSlides: true,
+  spaceBetween: 50,
+  autoplay: false,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

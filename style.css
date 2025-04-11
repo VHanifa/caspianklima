@@ -396,7 +396,7 @@ body {
 }
 
 .product-wrap {
-    height: 150px;
+    height: 310px;
     width: max-content;
     margin-left: auto;
     text-align: right;
@@ -407,7 +407,7 @@ body {
 
 .product-wrap img {
     height: 100%;
-    width: 240px;
+    width: 350px;
     object-fit: contain;
 }
 
