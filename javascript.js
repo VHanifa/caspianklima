@@ -6,16 +6,6 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-// Axtarış ikonuna kliklədikdə input görünsün
-const searchBtn = document.getElementById('searchToggle');
-const searchInput = document.getElementById('searchInput');
-
-searchBtn.addEventListener('click', () => {
-    searchInput.classList.toggle('hidden');
-    searchInput.focus();
-});
-
-
 const swiper = new Swiper(".heroSwiper", {
     loop: true,
     autoplay: {
