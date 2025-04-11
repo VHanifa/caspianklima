@@ -465,7 +465,6 @@ body {
 /* Bloglar */
 
 .custom-card {
-    display: flex;
     align-items: stretch;
     min-height: 385px;
     background: rgb(248, 249, 250);
@@ -481,7 +480,6 @@ body {
     padding: 20px;
 }
 .org-logo{
-    display: flex;
     align-items: center;
     font-size: 14px;
     color: rgb(119, 119, 119);
