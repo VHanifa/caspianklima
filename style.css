@@ -485,6 +485,12 @@ body {
     color: rgb(119, 119, 119);
     gap: 8px;
 }
+.org-logo img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    border-radius: 50%;
+}
 .card-title {
     font-size: 24px;
     font-weight: bold;
