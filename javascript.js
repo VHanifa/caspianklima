@@ -3,22 +3,42 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('mainNav');
 
 hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
 
 const swiper = new Swiper(".heroSwiper", {
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-  
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const swiperBlog = new Swiper(".blogSwiper", {
+  loop: true,
+  slidesPerView: 2.3,
+  dots: false,
+  stagePadding: 50,
+  centerSlides: true,
+  spaceBetween: 50,
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
