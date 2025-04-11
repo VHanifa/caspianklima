@@ -532,13 +532,6 @@ footer .footer-top {
     font-size: 16px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 footer .row .footer_box:nth-child(1) {
     width: 13%;
     padding: 0 10px;
