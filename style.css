@@ -209,7 +209,7 @@ body {
 .m-banner:before {
     content: "";
     display: block;
-    background-color: red;
+    background-color: #fcd031;
     padding-bottom: 0%;
     position: absolute;
     top: 0;

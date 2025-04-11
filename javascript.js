@@ -1,9 +1,9 @@
 // Hamburger menu açıb-bağlamaq üçün
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('mainNav');
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("mainNav");
 
-hamburger.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
 });
 
 const swiper = new Swiper(".heroSwiper", {
@@ -54,6 +54,20 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
   },
   navigation: {
     nextEl: ".swiper-button-next",
