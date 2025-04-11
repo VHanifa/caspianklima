@@ -6,6 +6,8 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
+console.log("salam")
+
 const swiper = new Swiper(".heroSwiper", {
     loop: true,
     autoplay: {
