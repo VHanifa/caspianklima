@@ -596,7 +596,48 @@ body {
     max-width: 100%;
     height: auto;
 }
-
+/* Call to action */
+.calltoaction {
+    padding: 3rem 0;
+    background-color: #eee;
+}
+.cta-inner {
+    display: flex;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+}
+.cta-inner2 {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to right, white 10%, transparent 10%), /* Top border: white on left 50% */ linear-gradient(to bottom, white 30%, transparent 10%), /* Left border: white on top 50% */ linear-gradient(to left, white 10%, transparent 10%), /* Bottom border: white on right 50% */ linear-gradient(to top, white 30%, transparent 10%);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+    background-position: top left, top left, bottom left, bottom right;
+}
+.cta-text {
+    padding: 40px 20px;
+    background: transparent;
+}
+.fs-5 {
+    font-size: 1.015625rem !important;
+}
+.socials a:first-child {
+    background-color: rgb(27, 36, 28);
+    color: rgb(84 204 97);
+}
+.socials a {
+    font-size: 14px;
+    padding: 20px;
+    transition: .4s;
+}
+.my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
 /* Footer */
 
 footer .footer-top {
