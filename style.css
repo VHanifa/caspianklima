@@ -15,11 +15,6 @@ body {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } */
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-}
 
 .header-container {
     max-width: 1400px;
@@ -564,17 +559,14 @@ footer .footer-top {
     font-size: 16px;
 }
 
-footer .row .footer_box:nth-child(1) {
-    width: 13%;
-    padding: 0 10px;
-}
-
 footer .footer-top h3 {
     font-size: 18px;
     margin-bottom: 25px;
 }
 
-ul {
+footer ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
     border-bottom: none;
 }
