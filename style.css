@@ -64,11 +64,10 @@ body {
 /* Search bar styles */
 .search-container {
     display: flex;
-    align-items: center;
-    gap: 50px;
-    padding: 10px 20px;
+    align-items: baseline;
     flex-wrap: wrap;
     margin: 0;
+
 }
 
 .glass {
@@ -200,24 +199,36 @@ body {
 }
 
 .slider-container {
-    padding: 0 15px;
+    padding: 0 55px;
     margin: 0 auto;
 }
-
+.m-banner {
+    position: relative;
+    width: 100%;
+}
+.m-banner:before {
+    content: "";
+    display: block;
+    background-color: red;
+    padding-bottom: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 90px;
+    left: 0;
+}
 .heroSwiper {
     height: 580px;
     position: relative;
     margin: 0 auto;
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    padding-block: 25px;
 }
 
 .slide-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.75rem;
 }
 
 .slide-content {

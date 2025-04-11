@@ -30,7 +30,7 @@ const swiperBlog = new Swiper(".blogSwiper", {
   centerSlides: true,
   spaceBetween: 50,
   autoplay: {
-    delay: 10000,
+    delay: 5000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -50,7 +50,7 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
   stagePadding: 50,
   centerSlides: true,
   spaceBetween: 50,
-  autoplay: false,
+  autoplay: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
