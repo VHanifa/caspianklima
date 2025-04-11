@@ -45,7 +45,17 @@ body {
 .hidden {
     display: none;
 }
-
+.nav-menu a:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fcd031;
+    transition: all 0.3s;
+}
+.nav-menu a:hover::after {
+    width: 100%;
+}
 .logo-text span {
     color: #000;
     font-size: 25px;
