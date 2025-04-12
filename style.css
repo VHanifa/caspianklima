@@ -10,6 +10,18 @@ body {
     min-height: 100vh;
 }
 
+/* ul,ol {
+    padding-left: 2rem;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: auto;
+} */
+
 /* .header {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -133,18 +145,6 @@ body {
 }
 
 /* CTA Button */
-.cta-button {
-    padding: 8px 16px;
-    background-color: #000;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    height: fit-content;
-}
-
-
 
 /* Hamburger menu */
 .nav-toggle-label {
@@ -172,6 +172,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     white-space: nowrap;
+    transition: background-color 0.3s;
+    height: fit-content;
 }
 
 .nav-menu {
@@ -867,6 +869,48 @@ footer .social_icons li a {
 }
 
 @media (max-width: 768px) {
+
+    .product-wrap {
+        height: 50%;
+    }
+
+    .product-wrap img {
+        width: 100%;
+    }
+
+    .corporative .section-heading {
+        font-size: 32px;
+    }
+
+    .corporative .section-desc {
+        font-size: 12px;
+    }
+
+    .slide-content {
+        text-align: center;
+    }
+
+    .cta-button {
+        display: none;
+    }
+
+    .slider-container {
+        padding: 0 15px;
+    }
+    
+    .slide-title {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .slide-text {
+        font-size: 15px;
+    }
+
+    .slide-button {
+        margin: 0 auto;
+    }
+
     .header-container {
         flex-wrap: wrap;
     }
@@ -879,6 +923,23 @@ footer .social_icons li a {
 
     .nav-toggle-label {
         display: flex;
+        align-self: flex-end;
+    }
+
+    .nav-toggle-label span {
+        height: 4px;
+    }
+
+    .corporative .section-caption {
+        width: 100%;
+    }
+
+    .custom-card {
+        flex-direction: column-reverse;
+    }
+
+    .card-content {
+        padding: 20px 0 0 0;
     }
 
     .main-nav {
@@ -916,5 +977,13 @@ footer .social_icons li a {
 
     .logo-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer .footer-top {
+        padding: 3rem 10px;
+    }
+
+    .footer_menu {
+        padding: 0;
     }
 }

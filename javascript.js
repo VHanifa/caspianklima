@@ -24,7 +24,7 @@ const swiper = new Swiper(".heroSwiper", {
 
 const swiperBlog = new Swiper(".blogSwiper", {
   loop: true,
-  slidesPerView: 2.3,
+  slidesPerView: 1,
   dots: false,
   stagePadding: 50,
   centerSlides: true,
@@ -32,6 +32,20 @@ const swiperBlog = new Swiper(".blogSwiper", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 2.3,
+      spaceBetween: 50,
+    },
   },
   pagination: {
     el: ".swiper-pagination",
@@ -45,12 +59,12 @@ const swiperBlog = new Swiper(".blogSwiper", {
 
 const swiperMehsullar = new Swiper(".mehsullarSwiper", {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   dots: false,
   stagePadding: 50,
   centerSlides: true,
   spaceBetween: 50,
-  autoplay: true,
+  autoplay: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -65,7 +79,11 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+    1480: {
+      slidesPerView: 3.3,
       spaceBetween: 50,
     },
   },
