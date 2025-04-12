@@ -24,6 +24,14 @@ body {
     gap: 2rem;
 }
 
+.logo {
+    width: 440px;
+}
+
+.logo img {
+    width: 100%;
+}
+
 /* Logo styles */
 .logo a {
     display: flex;
@@ -45,6 +53,7 @@ body {
 .hidden {
     display: none;
 }
+
 .nav-menu a:after {
     content: "";
     display: block;
@@ -172,6 +181,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0;
+    padding-top: 1rem;
+    margin: 0;
 }
 
 .nav-menu a {
@@ -814,6 +825,20 @@ footer .social_icons li a {
     align-items: center;
     transition: 0.3s linear;
     border: 1px solid black;
+}
+
+@media (max-width: 1440px) {
+    .nav-menu {
+        gap: 8px;
+    }
+
+    .nav-menu a {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 300px;
+    }
 }
 
 @media (max-width: 1024px) {
