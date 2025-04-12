@@ -781,6 +781,10 @@ footer .footer-top a {
     transition: 0.3s linear;
 }
 
+footer .footer-top a:not(.social_icons a):hover {
+    color: #fff;
+}
+
 footer .second_list {
     column-count: 2;
 }
@@ -827,6 +831,13 @@ footer .social_icons li a {
     align-items: center;
     transition: 0.3s linear;
     border: 1px solid black;
+    border: 1px solid transparent;
+}
+
+footer .social_icons li a:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
 }
 
 @media (max-width: 1440px) {

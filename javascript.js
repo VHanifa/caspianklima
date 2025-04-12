@@ -39,8 +39,10 @@ const swiperBlog = new Swiper(".blogSwiper", {
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1.5,
       spaceBetween: 40,
+      centerSlides: true,
+      stagePadding: 40,
     },
     1024: {
       slidesPerView: 2.3,
