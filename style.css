@@ -298,9 +298,7 @@ ol li {
     font-weight: 600;
 }
 
-.swiper_buttons {
-    display: none;
-}
+
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -320,7 +318,7 @@ ol li {
 .swiper-pagination-container {
     position: static;
     background-color: #86cd33;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     padding: 0.5rem;
 }
@@ -345,7 +343,7 @@ ol li {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    background-color: #86cd33;
+    background-color: #ffeb3e;
 }
 
 /* language */
@@ -422,9 +420,14 @@ ol li {
 }
 
 .icons ul a {
-    padding: .5rem 1rem;
+    padding: .6rem 0.6rem;
     display: inline-block;
-    background-color: #47CCEE;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 10px #3332;
+    border-radius: 50px;
     transition: .5s;
 }
 
@@ -437,7 +440,7 @@ ol li {
 }
 
 .icons ul li:nth-child(2) a:hover {
-    background-color: #405de6;
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 }
 
 .icons ul li:nth-child(3) a:hover {
@@ -449,16 +452,13 @@ ol li {
 }
 
 .icons ul a i {
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .icons ul a i.fa-youtube {
-    font-size: 17px;
+    font-size: 29px;
 }
 
-.instagram {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-}
 
 /* Mehsullar */
 #products {
