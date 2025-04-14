@@ -616,7 +616,7 @@ ol li {
 
 .corporative {
     height: 597px;
-    background-image: url('./img/about.jpg');
+    /* background-image: url('./img/about.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
