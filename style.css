@@ -386,6 +386,27 @@ ol li {
     height: 60px;
     line-height: 60px;
 }
+.icons {
+    position: absolute;
+    display: flex;
+    right: 13px;
+    top: 354px;
+    /* transform: rotate(-90deg); */
+    /*font-size: 14px;*/
+    letter-spacing: 1.8px;
+    height: 60px;
+    z-index: 9999;
+}
+
+.icons ul {
+    flex-direction: row-reverse;
+    margin: 0;
+    text-transform: uppercase;
+    list-style: none;
+}
+.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
 /* Mehsullar */
 #products {
     padding: 3rem 0;
