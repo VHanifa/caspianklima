@@ -74,9 +74,11 @@ ol li {
     background: #fcd031;
     transition: all 0.3s;
 }
+
 .nav-menu a:hover::after {
     width: 100%;
 }
+
 .logo-text span {
     color: #000;
     font-size: 25px;
@@ -225,10 +227,12 @@ ol li {
     padding: 0 55px;
     margin: 0 auto;
 }
+
 .m-banner {
     position: relative;
     width: 100%;
 }
+
 .m-banner:before {
     content: "";
     display: block;
@@ -240,6 +244,7 @@ ol li {
     bottom: 90px;
     left: 0;
 }
+
 .heroSwiper {
     height: 580px;
     position: relative;
@@ -342,9 +347,10 @@ ol li {
 .swiper-button-prev:hover {
     background-color: #86cd33;
 }
+
 /* language */
 
-.language_wrapper{
+.language_wrapper {
     position: absolute;
     left: -161px;
     top: 354px;
@@ -362,11 +368,12 @@ ol li {
     text-transform: uppercase;
     list-style: none;
 }
-.language_wrapper .active{
+
+.language_wrapper .active {
     position: relative;
 }
 
-.language_wrapper .active::before{
+.language_wrapper .active::before {
     position: absolute;
     content: '';
     background: #ffca28;
@@ -374,10 +381,12 @@ ol li {
     width: 100%;
     top: 0px;
 }
+
 .language_wrapper li {
     margin-left: 35px;
 }
-.language_wrapper li a{
+
+.language_wrapper li a {
     display: block;
     /*padding: 24px 0 23px;*/
     font-size: 12px;
@@ -386,31 +395,75 @@ ol li {
     height: 60px;
     line-height: 60px;
 }
+
 .icons {
     position: absolute;
     display: flex;
-    right: 13px;
-    top: 354px;
+    align-items: center;
+    right: 0;
+    top: 0;
     /* transform: rotate(-90deg); */
-    /*font-size: 14px;*/
+    /* font-size: 14px; */
     letter-spacing: 1.8px;
-    height: 60px;
+    height: 100%;
     z-index: 9999;
 }
 
 .icons ul {
-    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    padding: 0;
     text-transform: uppercase;
     list-style: none;
+    /* background: #47CCEE; */
+    align-items: center;
+    justify-content: center;
 }
+
+.icons ul a {
+    padding: .5rem 1rem;
+    display: inline-block;
+    background-color: #47CCEE;
+    transition: .5s;
+}
+
+.icons ul a:hover {
+    color: #fff;
+}
+
+.icons ul li:first-child a:hover {
+    background-color: #25d366;
+}
+
+.icons ul li:nth-child(2) a:hover {
+    background-color: #405de6;
+}
+
+.icons ul li:nth-child(3) a:hover {
+    background-color: #4267B2;
+}
+
+.icons ul li:nth-child(4) a:hover {
+    background-color: #FF0000;
+}
+
+.icons ul a i {
+    font-size: 22px;
+}
+
+.icons ul a i.fa-youtube {
+    font-size: 17px;
+}
+
 .instagram {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
+
 /* Mehsullar */
 #products {
     padding: 3rem 0;
-    background-color: #F6F7F9 ;
+    background-color: #F6F7F9;
 }
 
 .titleh {
@@ -969,7 +1022,7 @@ footer .social_icons li a:hover {
     .slider-container {
         padding: 0 15px;
     }
-    
+
     .slide-title {
         font-size: 25px;
         width: 100%;
@@ -1050,7 +1103,7 @@ footer .social_icons li a:hover {
     .logo-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     footer .footer-top {
         padding: 3rem 10px;
     }
