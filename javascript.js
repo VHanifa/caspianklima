@@ -45,7 +45,7 @@ const swiperBlog = new Swiper(".blogSwiper", {
       stagePadding: 40,
     },
     1024: {
-      slidesPerView: 2.3,
+      slidesPerView: 2,
       spaceBetween: 50,
     },
   },
@@ -66,7 +66,7 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
   stagePadding: 50,
   centerSlides: true,
   spaceBetween: 50,
-  autoplay: false,
+  autoplay: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -85,7 +85,7 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
       spaceBetween: 50,
     },
     1480: {
-      slidesPerView: 3.3,
+      slidesPerView: 4,
       spaceBetween: 50,
     },
   },
