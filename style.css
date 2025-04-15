@@ -219,7 +219,7 @@ display: block;
     padding: 7.5px 28px;
     border-radius: 25px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
     white-space: nowrap;
     transition: background-color 0.3s;
     height: fit-content;
@@ -461,11 +461,11 @@ display: block;
     padding: 0;
     text-transform: uppercase;
     list-style: none;
-    /* background: #47CCEE; */
+    background: white;
     align-items: center;
     justify-content: center;
 }
-
+.socialicon li a img {width: 30px;}
 .icons ul a {
     padding: .6rem 0.6rem;
     display: inline-block;
@@ -486,11 +486,11 @@ display: block;
     background-color: #25d366;
 }
 
-.icons ul li:nth-child(2) a:hover {
+.icons ul li:nth-child(3) a:hover {
     background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 }
 
-.icons ul li:nth-child(3) a:hover {
+.icons ul li:nth-child(2) a:hover {
     background-color: #4267B2;
 }
 
