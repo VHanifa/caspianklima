@@ -1088,11 +1088,12 @@ footer .social_icons li a:hover {
         flex-direction: column;
         gap: 0;
         padding: 1rem;
+        background-color: #F6F7F9;
     }
 
     .nav-menu a {
         padding: 0.75rem 0;
-        border-bottom: 1px solid #eee;
+        font-size: 15px;
     }
 
     /* Hamburger animation */
