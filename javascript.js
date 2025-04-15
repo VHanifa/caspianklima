@@ -94,3 +94,16 @@ const swiperMehsullar = new Swiper(".mehsullarSwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
+  document.getElementById('openDropdown').addEventListener('click', function(e) {
+    e.stopPropagation(); // Başqa klikləri bloklamaq üçün
+    document.querySelector('.dropdown').classList.toggle('show');
+  });
+
+  // Ekranın boş yerinə klikləyəndə dropdown bağlansın
+  document.addEventListener('click', function() {
+    document.querySelector('.dropdown').classList.remove('show');
+  });
+
